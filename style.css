@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
+.main-section{
+    padding: 1px;
+    width: 100%;
+}
+.first-section{
+    width: 100%;
+    height: 80vh;
+    color: white;
+}
+.navbar-section{
+    background-color: green;
+    padding: 20px;
+}
+.navbar-section > h4{
+    font-size: 28px;
+    display: block;
+    position: relative;
+    left: 70px;
+}
+.navbar-section-body{
+    list-style-type: none;
+}
+.navbar-section-body > li{
+    float: left;
+}
+.navbar-section > .navbar-section-body{
+    float: right;
+    position: relative;
+    top: -10px;
+}
+.navbar-section > .navbar-section-body , .navbar-section > h4{
+    display: inline;
+}
+.navbar-section-body > li{
+    margin-right: 20px;
+}
+.navbar-section-body a{
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+}
+.first-section-body{
+    width: 100%;
+    height: 80vh;
+    background:url("images/home.png") no-repeat fixed;
+    background-repeat: none;
+    background-position:center;
+}
+.first-section-body > h1{
+    display: block;
+    font-size:250%;
+    position: absolute;
+    top: 250px;
+    left: 90px;
+}
+
+.second-section{
+    width: 100%;
+    height: 60vh;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.second-section > div, .second-section > img{
+    float: left;
+}
+.second-section > div{
+    font-size: larger;
+    position: relative;
+    top: 50px;
+}
+.second-section > img{
+    width: 50vh;
+    height: 30vh;
+    border-radius: 10px;
+    position: relative;
+    top: 50px;
+}
+
+.third-section{
+    width: 100%;
+    height: 90vh;
+    background: url("images/third-transition.PNG") no-repeat;
+    background-size:cover;
+}
+.third-section > p{
+    width: 150px;
+    font-size: larger;
+    font-weight: bold;
+    padding: 10px;
+    position: relative;
+    left: 45%;
+    bottom: -40%;
+}
+
+.footer{
+    background-color: green;
+    font-size: larger;
+    font-weight: bolder;
+    text-align: center;
+}
+.footer > div, .footer  i{
+    padding: 15px 0 0 10px;
+}
+
